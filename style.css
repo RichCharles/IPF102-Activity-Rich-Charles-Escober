@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(#0B132B, #1C2541, #3A506B);
+    border-bottom: 1px solid #1C2541;
+}
+.logo{
+    position: absolute;
+    height: 63px;
+    width: 190px;
+    left: 13%;
+    padding-top: 15px;
+}
+.loginform{
+    display: flex;
+    position: absolute;
+    font-family: Sarpanch;
+    left: 58%;
+    top: 15px;
+}
+.loginform .email,
+.loginform .password{
+    padding-left: 10px;
+}
+.loginform .email .font,
+.loginform .password .font{
+    font-size: 13px;
+    padding-bottom: 4px;
+    color: white;
+}
+.loginform .email input,
+.loginform .password input{
+    height: 23px;
+    width: 150px;
+    padding-left: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.loginform button{
+    height: 24px;
+    width: 50px;
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 20px;
+    border-radius: 2px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background: #3A506B;
+    border: 1px solid #0B132B;
+}
+.loginform button:hover{
+    background: #5BC0BE;
+}
+
+
+section{
+    height: 614px;
+    width: 100%;
+    top: 80px;
+    background: linear-gradient(#FDFDFE, #EFF1F6, #E3E6F0, #E1E5F0, #D6DBEA);
+    font-family: Sarpanch;
+}
+.logobody{
+    position: absolute;
+    left: 15%;
+    top: 20%;
+}
+.logobody .likefont{
+    font-family: Sarpanch;
+    font-size: 25px;
+    margin-left: 60px;
+}
+.logobody .font1{
+    color: #083987;
+    margin-left: 25px;   
+    margin-bottom: 5px;
+}
+.logobody .font2{
+    color: #083987;
+    margin-left: -10px;   
+    margin-bottom: 5px;
+}
+.signupbody{
+    font-family: Sarpanch;
+    position: absolute;
+    left: 57%;  
+}
+.signupbody .accountcreate{
+    font-size: 40px;
+    margin: 15px 0;
+}
+.signupbody .quote{
+    margin: -20px 5px;
+    font-size: 18px;
+}
+.signupbody .signupform input{
+    margin-top: 50px;
+    height: 38px;
+    width: 190px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.signupbody .signupform .lastname{
+    margin-left: 15px;
+}
+.signupbody .signupform .email,
+.signupbody .signupform .password,
+.signupbody .signupform .password2{
+    margin-top: 20px;
+    width: 410px;
+}
+.signupbody .signupform .birthday{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0B132B;
+}
+.signupbody .signupform .birthdate{
+    margin-top: 5px;
+}
+.signupbody .signupform .month,
+.signupbody .signupform .day,
+.signupbody .signupform .year{
+    height: 28px;
+}
+.signupbody .signupform .day,
+.signupbody .signupform .year{
+    margin-left: -5px;
+}
+.signupbody .signupform .birthdayquote{
+    font-size: 11px;
+    padding-left: 170px;
+    margin-top: -28px;
+    width: 150px;
+}
+.signupbody .signupform a{
+    text-decoration: none;
+}
+.signupbody .signupform a:hover{
+    text-decoration: underline;
+}
+.signupbody .signupform input[type="radio"]{
+    height: 15px;
+    margin-left: -50px;
+    margin-top: 10px;
+}
+.signupbody .signupform input[value="female"]{
+    margin-left: -100px;
+}
+.male{
+    position: relative;
+   
+    left:-14%;
+}
+.female{
+    position: relative;
+   
+    left:-14%;
+}
+.signupbody .signupform .font{
+    margin-left: 57px;
+    margin-top: -17px;
+}
+.signupbody .signupform .font2{
+    margin-left: 150px;
+}
+.signupbody .signupform .agreement{
+    margin-top: 10px;
+    font-size: 12px;
+    width: 350px;
+    color: grey;
+}
+.signupbody .signupform .signup{
+    margin-top: 10px;
+    height: 38px;
+    width: 170px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid #0B132B;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(#0B132B, #1C2541, #3A506B);
+}
+.signupbody .signupform .signup:hover{
+    background: linear-gradient(#3A506B, #5BC0BE);
+}
